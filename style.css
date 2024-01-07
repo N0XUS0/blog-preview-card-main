@@ -1,0 +1,90 @@
+body {
+    background-color: #FFD966; /* Mustard yellow background */
+    font-family: Arial, sans-serif; /* Placeholder font */
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0px 80px rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  
+  .card-image {
+    height: 150px;
+    background-image: url('images.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 1vh;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-header {
+    
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .card-category {
+    font-weight: bold;
+    background-color: #FFD966;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    border-radius: 1vh;
+    
+  }
+  
+  .card-date {
+    font-size: 0.8em;
+    color: #999999;
+    margin-top: 10px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+    
+  }
+  
+  .card-description {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+  }
+  
+  .card-footer {
+    text-align: right;
+    font-size: 0.8rem;
+    color: #666666;
+    display: inline-flex;
+   align-items: center;
+  }
+  
+  .card-author {
+    font-weight: bold;
+   padding-left: 0.5;
+    
+
+    
+  } 
+  .card-title:hover{
+    color: #FFD966;
+  }
+  .img2{
+    margin-right: 8px;
+  }
